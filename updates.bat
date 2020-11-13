@@ -22,6 +22,15 @@ del /q misc\shadercache\*.*
 del /q misc\metacache\dcs\*.*
 cd ..
 
+cd TheChannel
+del /q misc\shadercache\*.*
+del /q misc\metacache\dcs\*.*
+cd ..
+
+cd Syria
+del /q misc\shadercache\*.*
+del /q misc\metacache\dcs\*.*
+cd ..
 
 cd "%USERPROFILE%\Saved Games\DCS.openbeta"
 del /q metashaders2\*
