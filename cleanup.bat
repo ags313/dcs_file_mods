@@ -1,0 +1,37 @@
+c:
+cd \DCSWorldOpenBeta
+
+cd Mods\terrains\
+cd Caucasus
+del /q misc\shadercache\*
+del /q misc\metacache\dcs\*
+cd ..
+
+cd Nevada
+del /q misc\shadercache\*.*
+del /q misc\metacache\dcs\*.*
+cd ..
+
+cd PersianGulf
+del /q misc\shadercache\*.*
+del /q misc\metacache\dcs\*.*
+cd ..
+
+cd Normandy
+del /q misc\shadercache\*.*
+del /q misc\metacache\dcs\*.*
+cd ..
+
+cd TheChannel
+del /q misc\shadercache\*.*
+del /q misc\metacache\dcs\*.*
+cd ..
+
+cd Syria
+del /q misc\shadercache\*.*
+del /q misc\metacache\dcs\*.*
+cd ..
+
+cd "%USERPROFILE%\Saved Games\DCS.openbeta"
+del /q metashaders2\*
+del /q fxo\*
